@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(to right, #4CAF50, #2E7D32);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+.features, .specs, .cta {
+    padding: 40px 20px;
+    text-align: center;
+}
+.features {
+    background: #fff;
+}
+.features h2, .specs h2, .cta h2 {
+    margin-bottom: 20px;
+}
+.features .feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.features .feature {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.specs table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+}
+.specs table th, .specs table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.cta {
+    background: linear-gradient(to right, #2E7D32, #4CAF50);
+    color: white;
+}
+.cta button {
+    background: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cta button:hover {
+    background: #f4f4f4;
+}
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
